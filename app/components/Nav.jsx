@@ -10,10 +10,12 @@ var Nav = React.createClass({
               <IndexLink to='/' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>Instruments</IndexLink>
             </li>
             <li>
-              <Link to='/about' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>About</Link>
+              About
+             {  //<Link to='/about' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>About</Link>}
             </li>
             <li>
-              <Link to='/example' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>Example</Link>
+              Example
+            {//<Link to='/example' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>Example</Link>}
             </li>
           </ul>
     );
