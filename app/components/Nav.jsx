@@ -7,15 +7,17 @@ var Nav = React.createClass({
           <ul className="menu expanded nav-bar">
             <li className="menu-text">WeatherGuage</li>
             <li>
-              <IndexLink to='/' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>Instruments</IndexLink>
+              <IndexLink to='/' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)',marginRight:'20px'}}>Instruments</IndexLink>
             </li>
             <li>
               About
-             {  //<Link to='/about' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>About</Link>}
+             {  //<Link to='/about' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>About</Link>
+         }
             </li>
             <li>
               Example
-            {//<Link to='/example' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>Example</Link>}
+            {//<Link to='/example' activeClassName='active' activeStyle={{fontWeight:'bold',borderLeft: '1px solid rgb(33, 153, 232)',borderRight: '1px solid rgb(33, 153, 232)'}}>Example</Link>
+        }
             </li>
           </ul>
     );
