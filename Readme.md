@@ -1,4 +1,4 @@
-<h1>WeatherGauge</>
+<h1>WeatherGauge</h1>
 
 <blockquote>
 <p>
@@ -6,3 +6,4 @@ Meteorology has ever been an apple of contention, as if the violent commotions o
 — Joseph Henry
 </p>
 </blockquote>
+<a href="http://weather-gauge-react-app.herokuapp.com/">Demo</a>
